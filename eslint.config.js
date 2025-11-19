@@ -36,6 +36,7 @@ export default [
         { allowConstantExport: true },
       ],
       'prettier/prettier': 'error',
+      'no-unused-vars': 'warn',
     },
   },
 ]
