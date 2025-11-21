@@ -46,6 +46,7 @@ const performanceImgPositions = [
     id: 'p2',
     right: 10,
     bottom: 60,
+    //   add desktop and mobile
   },
   {
     id: 'p3',
