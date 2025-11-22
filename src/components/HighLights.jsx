@@ -17,7 +17,7 @@ const Highlights = () => {
       duration: 1,
       ease: 'power1.inOut',
     })
-  })
+  }, [isMobile])
 
   return (
     <section id="highlights">
@@ -25,7 +25,7 @@ const Highlights = () => {
       <h3>Here’s what you get with the new MacBook Pro.</h3>
 
       <div className="masonry">
-        <div className="left-column">
+        <div className="left-column" style={{ opacity: 0, transform: 'translateY(20px)' }}>
           <div>
             <img src="/laptop.png" alt="Laptop" />
             <p>Fly through demanding tasks up to 9.8x faster.</p>
@@ -39,7 +39,7 @@ const Highlights = () => {
             </p>
           </div>
         </div>
-        <div className="right-column">
+        <div className="right-column" style={{ opacity: 0, transform: 'translateY(20px)' }}>
           <div className="apple-gradient">
             <img src="/ai.png" alt="AI" />
             <p>
